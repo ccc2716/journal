@@ -1,0 +1,205 @@
+/************************************************************************
+//	File: journal.css						*
+//    									*
+//	This file is a part of the "journal system for HJV"		*
+//    									*
+//	Copyright Sten Carlsen 2006, 2007				*
+//    									*
+//	Journal-systemet is free software: you can redistribute it	*
+//	and/or modify it under the terms of the GNU General Public	*
+//	License as published by the Free Software Foundation, either	*
+//	version 3 of the License, or (at your option) any later		*
+//	version.							*
+//									*
+//	Journal-systemet is distributed in the hope that it will be	*
+//	useful, but WITHOUT ANY WARRANTY; without even the implied	*
+//	warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR		*
+//	PURPOSE. See the GNU General Public License for more details.	*
+//									*
+//	You should have received a copy of the GNU General Public	*
+//	License along with Journal-systemet. If not, see		*
+//	<http://www.gnu.org/licenses/>.					*
+//    									*
+//	This file holds various formatting for use in the system	*
+//									*
+//	$Id$								*
+//    									*
+//**********************************************************************/
+
+
+body {
+	background-color: #FFF;
+	color: black;
+	margin: 0;
+}
+
+
+div.top {
+	position: fixed;
+	background-color: #E6E6E6;
+	color: black;
+	height: 40px;
+	top: 0;
+	right: 0;
+	bottom: auto;
+	left: 0;
+	padding: 5px;
+}
+
+div.midt {
+	padding: 5px 5px 5px 5px;
+	height: auto;
+	top: 50px;
+	right: 0;
+	bottom: 0px;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+}
+
+div.bund {
+	position: fixed;
+	background-color: #E6E6E6;
+	height: 110px;
+	top: auto;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 5px 5px 0px 5px;
+	display:none;
+}
+
+/* Menu bjælke. */
+ul.menu {
+	display:block;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+li.menu {
+	display:inline;
+}
+
+a.menu:link,a.menu:visited
+{
+	font-weight:bold;
+	color:blue;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+}
+a.menu:hover,a.menu:active
+{
+	color:#FFF;
+	background-color:blue;
+}
+
+a.logout:link,a.logout:visited
+{
+	font-weight:bold;
+	color:blue;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+}
+a.logout:hover,a.logout:active
+{
+	color:#FFF;
+	background-color:#FF00FC;
+}
+
+
+
+/* Generel formattering. */
+FONT.action {font-weight: bold; font-size: 150%} /* FONT, som beskriver hvad siden gør. */
+p.command { color: blue; font-weight: bold; padding-left: 10px; text-decoration: none}
+a.command:link,a.command:visited
+{
+	font-weight: bold;
+	color:blue;
+	text-align:center;
+	padding-left:10px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-decoration:none;
+}
+a.command:hover,a.command:active
+{
+	color:#FFF;
+	background-color:blue;
+}
+
+a.manual:link,a.manual:visited
+{
+	font-weight: bold;
+	color:blue;
+	padding:2px;
+	text-align:center;
+	text-decoration:none;
+}
+a.manual:hover,a.manual:active
+{
+	color:#FFF;
+	background-color:#F00;
+}
+
+.felt {font-weight: bold; background-color: #056D06; color: #FFF; padding:2px;}
+P.adresser {padding-left: 100px; text-decoration: none}
+
+
+table.felt2
+{
+	background: #FFF;
+	width:100%;
+	border: 0px solid;
+	border-collapse: collapse;
+	text-align:left
+}
+
+TD.mysig {}
+TD.sig { color: black; text-decoration: none; white-space:nowrap;}
+TR.even { color: black; background: #FFF }
+TR.odd { color: black; background: #E6E6E6 }
+a.mya:link,a.mya:visited
+{
+	font-weight: 700;
+	color:#6D2B59;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+}
+a.mya:hover,a.mya:active
+{
+	color:#FFF;
+	background-color:blue;
+}
+a.norma:link,a.norma:visited
+{
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+}
+a.norma:hover,a.norma:active
+{
+	color:#FFF;
+	background-color:#0080FF;
+}
+
+input.hilight:focus, textarea.hilight:focus, select.hilight:focus {
+	background-color:#FFFFD0;
+	}
+	
+input.hilight:hover, textarea.hilight:hover, select.hilight:hover {
+	background-color:#C3FFF8;
+	}
+
+
+/* For footer()  */
+
+p.manual
+{
+	margin:5px 0px 5px 0px;
+}

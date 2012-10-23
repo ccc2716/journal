@@ -1,0 +1,52 @@
+/****************************************************************
+//  File: journal.css						*
+//								*
+//  This file is a part of the "journal system for HJV"		*
+//								*
+//  Copyright Sten Carlsen 2006, 2007				*
+//								*
+    Journal-systemet is free software: you can redistribute it
+    and/or modify it under the terms of the GNU General Public
+    License as published by the Free Software Foundation, either
+    version 3 of the License, or (at your option) any later
+    version.
+
+    Journal-systemet is distributed in the hope that it will be
+    useful, but WITHOUT ANY WARRANTY; without even the implied
+    warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+    PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public
+    License along with Journal-systemet. If not, see
+    <http://www.gnu.org/licenses/>.
+//								*
+//  This file holds various formatting for use in the system	*
+//								*
+//	$Id$							*
+//								*
+//**************************************************************/
+
+
+/* Formattering til indtastnings sider: */
+TD.indtast {background: #d0ffd0;}
+TD.header {background: #e6e6e6;}
+TD.footer {background: #f8f8b0;}
+
+/* Generel formattering. */
+FONT.action {font-weight: bold; font-size: 150%} /* FONT, som beskriver hvad siden gør. */
+.command {font-weight: bold; padding-left: 10px; text-decoration: none}
+.manual {font-weight: bold; padding-left: 5px; text-decoration: none}
+.felt {font-weight: bold; background-color: #FFA3FD; color: #000;}
+P.adresser {padding-left: 100px; text-decoration: none}
+
+
+PRE.felt2 {background: #d0ffd0}
+
+A:link { color: blue }          /* unvisited link */
+A:visited { color: blue }        /* visited links */
+A:active { color: #B22624; font-weight: bold;}        /* active links */
+
+A.myeven { color: #6D2B59; font-weight: 700; text-decoration: none; background: #d0ffd0 }
+A.myodd { color: #6D2B59; font-weight: 700; text-decoration: none; background: #c8c8c8 }
+.even { color: black; text-decoration: none; background: #d0ffd0 }
+.odd { color: black; text-decoration: none; background: #c8c8c8 }

@@ -1,0 +1,9 @@
+Text felter:
+
+input -> htmlentities -> mysql_real_escape_string -> databasen
+
+databasen -> stripcslashes -> nl2br -> output
+
+databasen -> stripcslashes -> textarea/input-felt
+
+

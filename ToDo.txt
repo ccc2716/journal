@@ -1,0 +1,66 @@
+Backup/Restore		(select ... into outfile?) XML?
+
+Gennemgå alle tekster og få dem konsistente mht. \ og htmlentities. ok.
+
+CBRN-forms ok v0.1.
+
+Brug <ACRONYM> til visning af mere info.
+
+Indikation af flere adresser
+
+Mere af texten
+
+Lydsignal(er)?
+
+Sorter efter lokal/global interesse.
+
+
+/****************************************************************
+  This file is part of Journal-systemet.
+
+    Journal-systemet is free software: you can redistribute it
+    and/or modify it under the terms of the GNU General Public
+    License as published by the Free Software Foundation, either
+    version 3 of the License, or (at your option) any later
+    version.
+
+    Journal-systemet is distributed in the hope that it will be
+    useful, but WITHOUT ANY WARRANTY; without even the implied
+    warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+    PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public
+    License along with Journal-systemet. If not, see
+    <http://www.gnu.org/licenses/>.
+****************************************************************/
+
+// Copyright 2006, 2007, 2008 Sten Carlsen
+
+
+
+Forslag 1:
+<embed name="lostmojo"
+src="/web_design/lostmojo.wav"
+loop="false"
+hidden="true"
+autostart="true">
+</embed>
+
+
+
+
+Forslag 2:
+<SCRIPT TYPE="text/javascript">
+<!-- 
+var filename="hazy_shade_of_winter.mid";
+if (navigator.appName == "Microsoft Internet Explorer")
+    document.writeln ('<BGSOUND SRC="' + filename + '">');
+else if (navigator.appName == "Netscape")
+    document.writeln ('<EMBED SRC="' + filename + '" AUTOSTART=TRUE WIDTH=144 HEIGHT=60><P>');
+// -->
+</SCRIPT>
+<NOSCRIPT>
+<BGSOUND SRC="hazy_shade_of_winter.mid">
+</NOSCRIPT>
+
+
