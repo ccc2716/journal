@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>NyMelding.php</string>
+	<string>activeUser.php</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -19,7 +19,7 @@
 					<key>filename</key>
 					<string>journal.ini</string>
 					<key>lastUsed</key>
-					<date>2012-08-17T22:16:15Z</date>
+					<date>2013-01-27T18:08:42Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -44,9 +44,17 @@
 				</dict>
 				<dict>
 					<key>filename</key>
+					<string>activeUserImplement.php</string>
+					<key>lastUsed</key>
+					<date>2013-01-27T18:14:05Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
 					<string>activeUser.php</string>
 					<key>lastUsed</key>
-					<date>2011-05-14T14:31:50Z</date>
+					<date>2013-01-27T18:14:05Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -76,7 +84,7 @@
 					<key>filename</key>
 					<string>top.php</string>
 					<key>lastUsed</key>
-					<date>2012-10-01T01:15:15Z</date>
+					<date>2013-01-27T18:10:58Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -124,9 +132,7 @@
 					<key>filename</key>
 					<string>NyMelding.php</string>
 					<key>lastUsed</key>
-					<date>2012-10-01T01:15:15Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2013-01-27T18:06:58Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -291,7 +297,7 @@
 			<key>filename</key>
 			<string>main.php</string>
 			<key>lastUsed</key>
-			<date>2012-08-17T22:14:17Z</date>
+			<date>2013-01-27T18:11:49Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -396,6 +402,34 @@
 			<key>firstVisibleLine</key>
 			<integer>30</integer>
 		</dict>
+		<key>activeUser.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>activeUserImplement.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>debug.log</key>
 		<dict>
 			<key>caret</key>
@@ -473,7 +507,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>21</integer>
 				<key>line</key>
 				<integer>55</integer>
 			</dict>
@@ -481,6 +515,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>38</integer>
+		</dict>
+		<key>main.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>personel.ini</key>
 		<dict>
@@ -501,9 +549,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>245</integer>
+				<integer>18</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -516,6 +564,9 @@
 		<string>journal.ini</string>
 		<string>NyMelding.php</string>
 		<string>top.php</string>
+		<string>main.php</string>
+		<string>activeUser.php</string>
+		<string>activeUserImplement.php</string>
 		<string>debug.log</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
